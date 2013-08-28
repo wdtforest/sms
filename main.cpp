@@ -4,7 +4,7 @@ const int MESSAGE_CONTENT_LENTH = 150 ;
 const int ID_LENTH = 7;
 const int DATE_LENTH = 15;
 const int LIST_LENTH = 1200;
-
+//test
 class MESSAGE{
 private:
     char send_ID[ID_LENTH];
@@ -14,7 +14,7 @@ private:
 public:
     MESSAGE();
     ~MESSAGE();
-    bool read;                        //±ê¼Ç¶ÌÐÅ×´Ì¬£¬trueÎªÒÑ¶Á£¬falseÎªÎ´¶Á
+    bool read;                        //ï¿½ï¿½ï¿½Ç¶ï¿½ï¿½ï¿½×´Ì¬ï¿½ï¿½trueÎªï¿½Ñ¶ï¿½ï¿½ï¿½falseÎªÎ´ï¿½ï¿½
     void Set_send_ID();
     void Set_recv_ID();
     void Set_date();
